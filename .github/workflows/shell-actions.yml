@@ -1,5 +1,5 @@
 name: shell-actions
-run-name: ${{ github.action }} shell-actions
+run-name: ${{ github.actor }} shell-actions
 on: [push]
 jobs:
   write-a-hello-message:

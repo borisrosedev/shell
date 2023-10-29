@@ -17,5 +17,5 @@ case $num in
 esac
 
 if [ $? -ne 0 ]; then
-	echo -e "🔴 Error occured !!"
+	echo -e "🔴 Error occured !!!"
 fi

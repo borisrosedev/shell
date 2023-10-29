@@ -11,7 +11,7 @@ case $num in
 		;;
 	*)
 		echo -n "✅ -->"
-		echo "ce n'est pas 9"
+		echo "ce n'est pas 9 !"
 		
 		;;
 esac

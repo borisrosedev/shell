@@ -5,7 +5,13 @@ jobs:
   write-a-hello-message:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-node@v3
+        with:
+            node-version: '14'
+      - run: npm -v
+      - run: node -v
       - run: echo "Hello"
+    
   write-a-goodbye-message:
     runs-on: ubuntu-latest
     steps:

@@ -1,0 +1,10 @@
+name: issue-actions
+run-name: ${{ github.actor }} issue-actions
+on:
+    issues:
+        types: [opened, edited, milestoned]
+jobs:
+    write-a-message:
+        runs-on: ubunto-latest
+        steps:
+            - run: echo " new issue "

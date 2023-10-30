@@ -1,0 +1,9 @@
+name: wiki-actions
+run-name: ${{ github.actor }} wiki-actions
+on:
+  gollum
+jobs:
+  wiki-job:
+    runs-on: ubuntu-latest
+    steps:
+    - run:  echo "wiki"
